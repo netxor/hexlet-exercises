@@ -21,11 +21,11 @@ const sumSquare = (n) => {
 
         return iter(counter + 1, acc + square(counter));
     }
-    return iter (1,0);
+    return iter (1, 0);
 }
 
 const sumSquareDifference = (n) => {
     return squareSum(n) - sumSquare(n);
 }
 
-console.log(sumSquareDifference(10));
+console.log(sumSquareDifference(3));
